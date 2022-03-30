@@ -23,7 +23,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Ahmad</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
     <section class="jumbotron text-center">
         <img src="simad.jpg" alt="Ahmad" width="200" height="199" class="rounded-circle img-thumbnail" />
         <h1 class="display-4">Ahmad</h1>
-        
+      
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="10"
                 d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -200,6 +200,7 @@
     gsap.from('.display-4', { delay: 1, duration: 1, opacity: 0, x: '-10%' });
 
     gsap.registerPlugin(TextPlugin);
+    gsap.to('.lead', { delay: 1.5, duration: 2, text: 'Rekayasa Peranti Lunak' });
     
 
     const galleryImages = document.querySelectorAll('.gallery-img');
